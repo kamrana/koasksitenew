@@ -1,0 +1,30 @@
+.device-container {
+  width: 260px !important;
+  height: auto !important;
+}
+
+.device-container-small {
+  width: 160px !important;
+  height: auto !important;
+  position: absolute;
+}
+
+.device-container-med {
+  width: 180px !important;
+  height: auto !important;
+  position: absolute;
+}
+
+.forefront {
+	left: 85px;
+	top: 25px;
+}
+
+.header-content-inner {
+	width: 100%;
+}
+
+#homescreen {
+	margin-top: -5px;
+	padding-bottom: 5px;
+}

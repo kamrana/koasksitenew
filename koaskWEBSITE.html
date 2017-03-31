@@ -17,6 +17,7 @@
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
     <!-- Plugin CSS -->
@@ -26,6 +27,8 @@
 
     <!-- Theme CSS -->
     <link href="css/new-age.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -57,13 +60,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#development">Current Development</a>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#features">Intended Features</a>
+                        <a class="page-scroll" href="#features">Features</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#cta">The Team</a>
+                        <a class="page-scroll" href="#koa">Knee Osteoarthritis</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#cta">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -79,7 +85,7 @@
                     <div class="header-content">
                         <div class="header-content-inner">
                             <center><h1>KOASK</h1></center>
-                            <h4>Be one step ahead of your knee osteoarthritis.</h4>
+                            <center><h4>Be one step ahead of your knee osteoarthritis.</h4><center>
                         </div>
                     </div>
                 </div>
@@ -89,7 +95,7 @@
                             <div class="device">
                                 <div class="screen">
                                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                    <img src="img/demo-screen-1.png" class="img-responsive" alt="">
+                                    <img src="img/demo-screen-1.png" id="homescreen" class="img-responsive" alt="">
                                 </div>
                                 <div class="button">
                                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -102,28 +108,43 @@
         </div>
     </header>
 
-    <section id="development" class="development bg-primary text-center">
+    <section id="about" class="about bg-primary text-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2 class="section-heading">Development Timeline</h2>
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="device-container device-container-small">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="img/exercises.png" class="img-responsive" alt=""> </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="device-container device-container-med">
+                        <div class="device-mockup iphone6_plus portrait white forefront">
+                            <div class="device forefront">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="img/startup.png" class="img-responsive" alt=""> </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-md-offset-1">
+                    <br><br><br>
+                    <h2 class="section-heading">KOASK</h2>
                     <div class="row">
-                        <div class="col-md-6">
-                                <h3>March 13</h3>
-                                <p class="text-muted">Functionality for the exercise tracking.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <h3>March 20</h3>
-                            <p class="text-muted">Dashboard and survey questions finalized.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <h3>March 27</h3>
-                            <p class="text-muted">Presentation for patients and healthcare providers.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <h3>April 2017</h3>
-                            <p class="text-muted">Launch of the KOASK applitcaion on the UCalgary store.</p>
-                        </div>
+                        <br><center>
+                        <p>KOASK is a self-management and knowledge app for those suffering from knee osteoarthritis (KOA). <br><br>Find it on the Apple App Store <strong>here</strong>!</p></center>
+                        <br><br><br><br>
                     </div>
                 </div>
             </div>
@@ -135,8 +156,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="section-heading">
-                        <h2>Tracking the progresion of knee osteoarthritis just got easier!</h2>
-                        <p class="text-muted">KOASK provides you a platform from which you can manage and track the progression of your osteoarthritis. Most importantly it provides an ease of mind.</p>
+                        <h2>Managing knee osteoarthritis just got a lot easier!</h2>
+                        <br>
+                        <p class="text-muted">Through a variety of strategies, tools, and resources, KOASK helps you keep your KOA in check.<br>Most importantly, it provides peace of mind.</p>
                         <hr>
                     </div>
                 </div>
@@ -148,7 +170,7 @@
                             <div class="device">
                                 <div class="screen">
                                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                    <img src="img/demo-screen-2.png" class="img-responsive" alt=""> </div>
+                                    <img src="img/survey.png" class="img-responsive" alt=""> </div>
                                 <div class="button">
                                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                                 </div>
@@ -162,31 +184,31 @@
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <i class="icon-graph text-primary"></i>
-                                    <h3>Estimate your severity</h3>
-                                    <p class="text-muted">The ability to see the current progression of your knee osteoarthritis</p>
+                                    <h3>Risk Calculation</h3>
+                                    <p class="text-muted">Calculate the current severity and stage of your knee osteoarthritis</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <i class="icon-target text-primary"></i>
-                                    <h3>Tracks 3 Variables</h3>
-                                    <p class="text-muted">A focus on pain, functionality, and stiffness.</p>
+                                    <h3>Symptom Tracking</h3>
+                                    <p class="text-muted">Track your pain, functionality, and stiffness to get a comprehensive picture of your condition</p>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="feature-item">
-                                    <i class="icon-notebook text-primary"></i>
-                                    <h3>Customized Exercise plan</h3>
-                                    <p class="text-muted">See recommended excersies for your severity level. Keeps you on-track and motivated!</p>
+                                    <i class="icon-calculator text-primary"></i>
+                                    <h3>Be One Step Ahead</h3>
+                                    <p class="text-muted">See strategies and information with the potential to slow down your KOA's progression</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item">
-                                    <i class="icon-present text-primary"></i>
-                                    <h3>Easy of use</h3>
-                                    <p class="text-muted">Developed with functionality in mind. The application is simple to use.</p>
+                                    <i class="icon-notebook text-primary"></i>
+                                    <h3>Exercise Planning</h3>
+                                    <p class="text-muted">Customize an exercise plan from a set of recommended activities</p>
                                 </div>
                             </div>
                         </div>
@@ -194,54 +216,45 @@
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <i class=" icon-control-forward text-primary"></i>
-                                    <h3>7-Year prediction</h3>
-                                    <p class="text-muted">Provides you with a 7 year severity estimate, so you can be better informed.</p>
+                                    <h3>7-Year Prediction</h3>
+                                    <p class="text-muted">Get a glimpse into the future with a projected severity estimate</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item">
-                                    <i class="icon-calculator text-primary"></i>
-                                    <h3>Be one step ahead</h3>
-                                    <p class="text-muted">Tracking the progression allows you to make better decisions and keeps your osteoarthritis in check.</p>
+                                    <i class="icon-present text-primary"></i>
+                                    <h3>Ease of Use</h3>
+                                    <p class="text-muted">Manage your KOA with ease. After all, KOASK was developed with you in mind!</p>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
     </section>
 
+    <section id="koa" class="koa bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h2 class="section-heading text-center">Knee Osteoarthritis</h2>
+                    <br>
+                    <p>
+Osteoarthritis, commonly known as wear-and-tear arthritis, is a condition in which the natural cushioning between joints - cartilage - wears away. When this happens, the bones of the joints rub more closely against one another with less of the shock-absorbing benefits of cartilage. The rubbing results in pain, swelling, stiffness, decreased ability to move and, sometimes, the formation of bone spurs.<br><br>
+According to the Arthritis Foundation, more than 27 million people in the U.S. have osteoarthritis, with the knee being one of the most commonly affected areas. In the United States, knee osteoarthritis (KOA) occurs in 10% of men and in 13% of women aged 60 years or older. Although there's no cure for knee osteoarthritis as of yet, the good news is that there are a number of treatments that can help ease symptoms and reduce the chances of your condition becoming worse. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="cta" class="cta">
         <div class="cta-content">
             <div class="container">
-                <h2>The Team</h2>
+                <h2>Contact</h2>
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="team-item">
-                            <h3 style="color:white;">Ali Kamran</h1>
-                            <p class="text" style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at faucibus dui. Fusce ullamcorper sagittis vulputate. Proin at dolor mollis, varius urna et, placerat libero.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="team-item">
-                            <h3 style="color:white;">Chris Hawk</h1>
-                            <p class="text" style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at faucibus dui. Fusce ullamcorper sagittis vulputate. Proin at dolor mollis, varius urna et, placerat libero.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="team-item">
-                            <h3 style="color:white;">Rachel Quapp</h1>
-                                <p class="text" style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at faucibus dui. Fusce ullamcorper sagittis vulputate. Proin at dolor mollis, varius urna et, placerat libero.</p>
-                                </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="team-item">
-                            <h3 style="color:white;">Spencer Briere</h1>
-                                <p class="text" style="color:white;">Senior Year Computer Science major at the U of C. Originally concentrating studies in Human-Computer Interaction (HCI). Currently pursuing a general CPSC degree whilst studying a minor in Philosophy.</p>
-                                </div>
+                    <div class="col-md-12">
+                    <p>Have questions, comments, or concerns? Drop us a line at <strong>koask.support@gmail.com</strong>.<br>We would love to hear from you!
+                    </p>
                     </div>
                 </div>
 
@@ -250,14 +263,16 @@
         <div class="overlay"></div>
     </section>
 
-<section id="partners" class="partners bg-primary">
+<section id="partners" class="partners">
     <div class="container">
-        <h2>In partnership with </h2>
+        <h3>In partnership with </h3>
+        </br>
+        </br>
+        </br>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="partner-item">
-                        
+                    <div class="partner-item">           
                         <a href="http://www.ucalgary.ca/">
                             <img src="img/uofclogo.png" class="text-center">
                         </a>
